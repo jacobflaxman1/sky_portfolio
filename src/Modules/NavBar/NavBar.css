@@ -1,0 +1,50 @@
+.nav_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 1000;
+    top: 0;
+    background: transparent;
+    position: fixed;
+    left: 20px;
+    right:20px;
+    color: #2f9395;
+    font-family: Space Grotesk;
+    font-size: 15px;
+}
+
+.links_wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 45px;
+}
+
+.link_icon {
+    margin:0.7vw;
+    color: #712F79;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+li {
+    margin-right: 5vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a_black:visited {
+    color: black;
+}
+
+.a_orange:visited {
+    color: #F16A43;
+}

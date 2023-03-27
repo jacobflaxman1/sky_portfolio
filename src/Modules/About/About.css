@@ -1,0 +1,84 @@
+.about_wrapper {
+    height: 100%;
+    font-family: Space Grotesk;
+    background-color: black;
+    color: white;
+    position: relative;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.about_text_wrapper {
+    text-align: justify;
+    position: relative;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.about_text {
+    color: white;
+    padding: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.about_text:first-letter {
+    color:#FE5F55;
+    font-weight: bold;
+    font-size: 70px;
+    float: left;
+    line-height: 60px;
+    padding-right: 8px;
+    margin-top: -3px;
+    margin-right: 3px;
+    text-shadow: 10px 5px 0px #07bccc;
+}
+
+.rand_wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.rand_wrapper_bottom {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.rand_text {
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.rand_text:hover {
+    transform: translateY(-8px);
+}
+
+.sky_robo {
+    height: 15vh;
+    width: auto;
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+
+@media (width <= 844px) {
+    .sky_robo {
+        display: none;
+    }
+}

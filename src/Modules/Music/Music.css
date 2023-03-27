@@ -1,0 +1,33 @@
+.music_wrapper {
+    height: 100%;
+    background-color: black;
+    /*width: 100vw;*/
+}
+
+.music_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+iframe {
+    padding: 25px;
+    width: 50vw;
+    heigth: 10vh;
+}
+
+.album_wrapper {
+    position: relative;
+    top: 5%;
+    left: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.demos_img {
+    height: 10vh;
+    width: auto;
+}

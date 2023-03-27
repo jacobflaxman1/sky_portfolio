@@ -1,0 +1,83 @@
+.hero_wrapper {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.header_letter_scroll {
+    transition: all 0.5s;
+    -webkit-text-stroke: 4px #d6f4f4;
+    font-variation-settings: 'ital' 1;
+    /*text-align: center;*/
+    color: transparent;
+    font-family: 'Space Grotesk', sans-serif;
+    text-shadow: 10px 10px 0px #FFC107;
+}
+
+.header_letter {
+    transition: all 0.5s;
+    -webkit-text-stroke: 4px #d6f4f4;
+    font-variation-settings: 'ital' 1;
+    /*text-align: center;*/
+    color: transparent;
+    font-family: 'Space Grotesk', sans-serif;
+    text-shadow:10px 10px 0px #FFC107,
+    15px 15px 0px #FF6347,
+    20px 20px 0px #e9019a;
+    font-variation-settings: "wght" 900, "ital" 1;
+}
+
+.header_letter:hover {
+    margin-left: -1%;
+}
+
+.sky_transparent {
+    transition: all 0.5s;
+    width: 30vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 2px;
+    position: relative;
+    /*margin: 2vh;*/
+    /*bottom: 7%;*/
+}
+
+.img_header_scroll {
+    -mox-box-shadow: 10px 10px 0px #FF5733,
+    15px 15px 0px #FFC300,
+    20px 20px 0px #e9019a,
+    25px 25px 0px #f40468,
+    45px 45px 10px #482896;
+
+    -webkit-box-shadow: 10px 10px 0px #FFC107,
+    15px 15px 0px #FF6347,
+    20px 20px 0px #7FFFD4,
+    25px 25px 0px #FFA07A,
+    45px 45px 10px #00BFFF;
+}
+
+@media (390px <= width <= 844px) {
+    .sky_transparent {
+        transition: all 0.5s;
+        width: 50vw;
+        margin-top: 10vh;
+    }
+
+    .header_letter {
+        font-size: 15vw;
+    }
+
+}
